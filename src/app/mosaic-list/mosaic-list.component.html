@@ -1,0 +1,38 @@
+<div *ngFor="let mosaic of mosaics">
+  <div class="card">
+    <div class="card-header">{{mosaic.name}}</div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-6">
+          <img src="{{'assets/' + mosaic.mainImg}}" class="main-image img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-12">
+              {{mosaic.text}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <b>Created: {{mosaic.created}}</b>
+            </div>
+          </div>
+          <div class="row">
+            <div *ngFor="let mosaic_pic of mosaic.galleryImgs">
+              <div class="col-6">
+                <a href="#" (click)="openImg(mosaic_pic)">
+                  <img class="galleryPic" src="{{'assets/' + mosaic_pic}}" style="width:100%">
+                </a>
+                <div id="{{'gallery_pic_' + mosaic_pic}}" class="modal">
+                  <span class="close" (click)="closeImg(mosaic_pic)">&times;</span>
+                  <img class="modal-content" src="{{'assets/' + mosaic_pic}}">
+                  <div id="caption"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

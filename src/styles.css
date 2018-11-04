@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+.app-button {
+  background-color: cadetblue;
+}
+
+.app-button:hover {
+   background-color: cadetblue;
+ }
+
+.app-button:active {
+  background-color: cadetblue;
+}
+
+.app-button:focus {
+  background-color: cadetblue;
+}
+
+.btn:hover {
+  background-color: cadetblue;
+}
+
+.btn:active {
+  background-color: cadetblue;
+}
+
+.btn:focus {
+  background-color: cadetblue;
+}
+
