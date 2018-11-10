@@ -1,30 +1,6 @@
-@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.css";
+@import "app/styles/app.button.css";
 
-.app-button {
-  background-color: cadetblue;
+body {
+  background-image: url("./app/images/tiles3.jpg");
 }
-
-.app-button:hover {
-   background-color: cadetblue;
- }
-
-.app-button:active {
-  background-color: cadetblue;
-}
-
-.app-button:focus {
-  background-color: cadetblue;
-}
-
-.btn:hover {
-  background-color: cadetblue;
-}
-
-.btn:active {
-  background-color: cadetblue;
-}
-
-.btn:focus {
-  background-color: cadetblue;
-}
-
