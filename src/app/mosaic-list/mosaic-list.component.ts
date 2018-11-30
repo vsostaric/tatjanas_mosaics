@@ -5,7 +5,7 @@ import {Mosaic} from '../model/Mosaic';
 @Component({
   selector: 'app-mosaic-list',
   templateUrl: './mosaic-list.component.html',
-  styleUrls: ['./mosaic-list.component.css']
+  styleUrls: ['./mosaic-list.component.scss']
 })
 export class MosaicListComponent implements OnInit {
 
@@ -24,13 +24,4 @@ export class MosaicListComponent implements OnInit {
     return mosaics.sort((one, two) => (one.created > two.created ? -1 : 1));
   }
 
-  openImg(image) {
-    debugger;
-    document.getElementById('gallery_pic_' + image).style.display = 'block';
-  }
-
-  closeImg(image) {
-    debugger;
-    document.getElementById('gallery_pic_' + image).style.display = 'none';
-  }
 }

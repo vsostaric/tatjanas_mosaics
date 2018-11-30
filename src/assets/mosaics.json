@@ -1,24 +1,51 @@
 {
   "mosaics": [
     {
-      "created": "23.10.2018",
-      "name": "Fish",
+      "created": "29.10.2018",
+      "name": "Spilimbergo",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "mainImg": "fish/fish.jpg",
+      "mainImg": "spilimbergo/Spilimbergo1.jpg",
       "galleryImgs": [
-        "fish/gallery/fish1.jpg",
-        "fish/gallery/fish2.jpg",
-        "fish/gallery/fish3.jpg"
+        "spilimbergo/gallery/Spilimbergo1.jpg",
+        "spilimbergo/gallery/Spilimbergo2.jpg",
+        "spilimbergo/gallery/Spilimbergo3.jpg",
+        "spilimbergo/gallery/Spilimbergo4.jpg",
+        "spilimbergo/gallery/Spilimbergo5.jpg",
+        "spilimbergo/gallery/Spilimbergo6.jpg",
+        "spilimbergo/gallery/Spilimbergo7.jpg",
+        "spilimbergo/gallery/Spilimbergo8.jpg",
+        "spilimbergo/gallery/Spilimbergo9.jpg",
+        "spilimbergo/gallery/Spilimbergo10.jpg",
+        "spilimbergo/gallery/Spilimbergo11.jpg",
+        "spilimbergo/gallery/Spilimbergo12.jpg",
+        "spilimbergo/gallery/Spilimbergo13.jpg",
+        "spilimbergo/gallery/Spilimbergo14.jpg",
+        "spilimbergo/gallery/Spilimbergo15.jpg",
+        "spilimbergo/gallery/Spilimbergo16.jpg",
+        "spilimbergo/gallery/Spilimbergo17.jpg",
+        "spilimbergo/gallery/Spilimbergo18.jpg",
+        "spilimbergo/gallery/Spilimbergo19.jpg",
+        "spilimbergo/gallery/Spilimbergo20.jpg",
+        "spilimbergo/gallery/Spilimbergo21.jpg"
       ]
     },
     {
-      "created": "29.10.2018",
-      "name": "House",
+      "created": "29.11.2018",
+      "name": "Vesna",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "mainImg": "house/house.jpg",
+      "mainImg": "vesna/Vesna1.jpg",
       "galleryImgs": [
-        "house/gallery/house1.jpg",
-        "house/gallery/house2.jpg"
+        "vesna/gallery/Vesna1.jpg",
+        "vesna/gallery/Vesna2.jpg",
+        "vesna/gallery/Vesna3.jpg",
+        "vesna/gallery/Vesna4.jpg",
+        "vesna/gallery/Vesna5.jpg",
+        "vesna/gallery/Vesna6.jpg",
+        "vesna/gallery/Vesna7.jpg",
+        "vesna/gallery/Vesna8.jpg",
+        "vesna/gallery/Vesna9.jpg",
+        "vesna/gallery/Vesna10.jpg",
+        "vesna/gallery/Vesna11.jpg"
       ]
     }
   ]

@@ -8,6 +8,7 @@ import {MosaicListComponent} from './mosaic-list/mosaic-list.component';
 import {AboutComponent} from './about/about.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {HttpClientModule} from '@angular/common/http';
+import {MDBBootstrapModule} from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {HttpClientModule} from '@angular/common/http';
     AboutComponent
   ],
   imports: [
+    MDBBootstrapModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
