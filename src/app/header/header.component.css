@@ -3,7 +3,6 @@
   vertical-align: center;
   font-family: verdana;
   font-size: 20px;
-  background-image: url("../images/cat.jpg"), url("../images/tiles.jpg");
   background-repeat: no-repeat, repeat;
   background-size: 100px 150px;
   box-shadow: 3px 3px bisque;

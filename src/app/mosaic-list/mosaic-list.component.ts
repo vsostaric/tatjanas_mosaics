@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Mosaic} from '../model/Mosaic';
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-mosaic-list',
@@ -9,9 +10,11 @@ import {Mosaic} from '../model/Mosaic';
 })
 export class MosaicListComponent implements OnInit {
 
-  mosaics: Mosaic[];
+  public mosaics: Mosaic[];
 
-  constructor(private http: HttpClient) {
+  public clickedMosaic: Mosaic;
+
+  constructor(private http: HttpClient, private modalService: NgbModal) {
   }
 
   ngOnInit() {
@@ -22,6 +25,11 @@ export class MosaicListComponent implements OnInit {
 
   private sortMosaics(mosaics: Mosaic[]) {
     return mosaics.sort((one, two) => (one.created > two.created ? -1 : 1));
+  }
+
+  openMosaicDetails(content, mosaic) {
+    this.clickedMosaic = mosaic;
+    this.modalService.open(content, {size: 'lg'});
   }
 
 }

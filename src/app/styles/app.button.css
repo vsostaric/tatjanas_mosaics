@@ -7,7 +7,6 @@ button#about-button {
 }
 
 button.app-button {
-  background-image: url("../images/tiles3.jpg");
   border-radius: 50px;
   width: 15%;
   height: 15%;

@@ -9,6 +9,7 @@ import {AboutComponent} from './about/about.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {HttpClientModule} from '@angular/common/http';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MDBBootstrapModule} from 'angular-bootstrap-md';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
