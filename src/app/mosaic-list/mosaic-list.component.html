@@ -26,9 +26,9 @@
       <div class="col-6">
         <div class="app-carusel-holder">
           <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
-            <div class="view w-100">
+            <div class="app-image-holder view w-100">
               <mdb-carousel-item *ngFor="let galleryImg of clickedMosaic.galleryImgs">
-                <img class="d-block w-100 h-100" [src]="'../../assets/' + galleryImg">
+                <img class="d-block w-100" [src]="'../../assets/' + galleryImg">
                 <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
               </mdb-carousel-item>
             </div>
