@@ -8,8 +8,6 @@ import {faArrowLeft} from '@fortawesome/free-solid-svg-icons/faArrowLeft';
 })
 export class AboutComponent implements OnInit {
 
-  faArrowLeft = faArrowLeft;
-
   constructor() { }
 
   ngOnInit() {

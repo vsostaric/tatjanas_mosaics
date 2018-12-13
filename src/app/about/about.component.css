@@ -1,8 +1,13 @@
 .app-about-text {
   font-size: 1vw;
   text-align: justify;
+  padding: 4px;
+  margin: 10px;
 }
 
 .app-image {
   width: 100%;
+}
+
+#app-about-holder {
 }
