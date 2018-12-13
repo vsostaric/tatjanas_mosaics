@@ -5,6 +5,10 @@
   margin: 10px;
 }
 
+#app-about-title {
+  font-size: 6vh;
+}
+
 .app-image {
   width: 100%;
 }

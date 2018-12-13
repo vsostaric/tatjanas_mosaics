@@ -1,10 +1,23 @@
+.app-background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../assets/images/pidgeon.jpg") right bottom;
+  background-repeat: no-repeat;
+  opacity: .1;
+}
+
 #app-container {
   margin-left: 25px;
   margin-right: 25px;
   padding: 10px;
   margin-top: 5px;
   width: auto;
-  height: 50vh;
+  height: auto;
+  z-index: 1;
 }
 
 #app-menu {
@@ -12,6 +25,8 @@
   background-color: #c77b3e;
   font-size: 2vw;
   padding: 15px;
+  min-height: 15vh;
+
 }
 
 #app-content {
