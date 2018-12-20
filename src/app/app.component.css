@@ -4,9 +4,9 @@
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  background: url("../assets/images/pidgeon.jpg") right bottom;
+  background: url("../assets/images/pidgeon.jpg");
   background-repeat: no-repeat;
+  background-position: 0;
   opacity: .1;
 }
 
@@ -21,12 +21,12 @@
 }
 
 #app-menu {
-  color: white;
+  color: black;
   background-color: #c77b3e;
-  font-size: 2vw;
+  font-size: 40%;
+  text-shadow: 2px 2px rgba(175, 90, 0, 0.94);
   padding: 15px;
   min-height: 15vh;
-
 }
 
 #app-content {
