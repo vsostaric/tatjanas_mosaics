@@ -1,0 +1,48 @@
+.mosaic-image-holder {
+  padding: 2px;
+  margin: 1px;
+}
+
+.mosaic-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mosaic-image {
+    max-height: 50px;
+  }
+
+  .mosaic-image-desc {
+    width: 50%;
+    float: right;
+  }
+}
+
+.mosaic-image-title {
+  max-width: 50%;
+  max-height: 50%;
+  font-size: 2vw;
+  margin: 2px;
+  cursor: default;
+}
+
+.mosaic-image-finish-date {
+  font-size: 1vw;
+  cursor: default;
+}
+
+.mosaic-image-desc {
+  font-size: 2vw;
+  cursor: default;
+}
+
+.mosaic-image-seemore {
+  padding: 2px;
+  margin: 2px;
+  font-size: 2vw;
+}
+
+.mosaic-image-seemore-icon {
+  cursor: pointer;
+}

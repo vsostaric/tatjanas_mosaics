@@ -1,0 +1,33 @@
+.grid-container-title {
+  display: grid;
+  grid-row-gap: 5px;
+  border: solid 3px blue;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-container-content {
+  display: grid;
+  grid-row-gap: 10px;
+  border: solid 3px blue;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-item {
+    max-height: 100px;
+  }
+}
+
+.grid-item {
+  background-color: red;
+  border: solid 3px green;
+  padding: 2px;
+}

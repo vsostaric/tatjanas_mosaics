@@ -1,19 +1,213 @@
-<div id="app-container" class="container-fluid">
-  <div class="row">
-    <div class="app-background col-12"></div>
-    <div id="app-menu" class="col-12 app-container-element">
-      <div class="col-4 offset-4">
-        <h1>Tatjana's Mosaics</h1>
-      </div>
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Modal title</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>One fine body&hellip;</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<div class="grid-container-title">
+  <div id="flag-holder" class="grid-item">
+    <span class="flag-icon flag-icon-hr"></span>
+    <span class="flag-icon flag-icon-us"></span>
+  </div>
+  <div id="title-grid" class="grid-item">
+    <h1 id="title-main">Title Title Title</h1>
+    <div id="subtitle-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat.
     </div>
-    <div id="app-content" class="app-container-element">
-      <div class="col-12">
-        <app-mosaic-list></app-mosaic-list>
-      </div>
-      <div class="col-12">
-        <app-about></app-about>
-      </div>
+  </div>
+  <div id="title-picture-holder" class="grid-item"><img id="title-picture" src="../assets/images/workshop.jpg"></div>
+</div>
+<div class="grid-container-content">
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
     </div>
-    <div class="app-background col-12"></div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon" (click)="openModal()">See more</i>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="mosaic-image-title">Spilimbergo1
+      <div class="mosaic-image-finish-date">29.10.2018</div>
+    </div>
+    <div class="mosaic-image-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.
+    </div>
+    <div class="mosaic-image-holder">
+      <img src="assets/mosaics/spilimbergo/Spilimbergo1.jpg" alt="" class="mosaic-image">
+    </div>
+    <div class="mosaic-image-seemore">
+      <i class="fa fa-eye mosaic-image-seemore-icon">See more</i>
+    </div>
   </div>
 </div>

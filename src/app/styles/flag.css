@@ -1,0 +1,16 @@
+#flag-holder {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 6vh;
+}
+
+.flag-icon {
+  float: right;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin: 0.5vw;
+  background-position: inherit !important;
+  cursor: pointer;
+}

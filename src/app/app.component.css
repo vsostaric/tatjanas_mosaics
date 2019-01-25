@@ -1,40 +1,12 @@
-.app-background {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background: url("../assets/images/pidgeon.jpg");
-  background-repeat: no-repeat;
-  background-position: 0;
-  background-size: 100%;
-  opacity: .1;
-}
-
-#app-container {
-  margin-left: 25px;
-  margin-right: 25px;
-  padding: 10px;
-  margin-top: 5px;
-  width: auto;
-  height: auto;
-  z-index: 1;
-}
-
-#app-menu {
-  color: black;
-  background-color: #c77b3e;
-  font-size: 40%;
-  text-shadow: 2px 2px rgba(175, 90, 0, 0.94);
-  padding: 15px;
-  min-height: 15vh;
-}
-
-#app-content {
-  height: auto;
-}
-
-.app-container-element {
-  padding: 2px;
-  width: 100%;
-}
+@import "./styles/modal.css";
+@import "./styles/mosaic-image.css";
+@import "./styles/title.css";
+@import "./styles/grid.css";
+@import "./styles/flag.css";
+@import "./styles/main.css";
+/*------------------------------------------------*/
+/*  Static outside css */
+/*------------------------------------------------*/
+@import "./styles/static/w3.css";
+@import "../../node_modules/flag-icon-css/css/flag-icon.min.css";
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
