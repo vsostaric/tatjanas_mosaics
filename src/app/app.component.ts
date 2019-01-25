@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
     return mosaics.sort((one, two) => (one.created > two.created ? -1 : 1));
   }
 
-  openModal(content?) {
+  openModal(content) {
     debugger;
     this.modalService.open(content, {centered: true});
   }
