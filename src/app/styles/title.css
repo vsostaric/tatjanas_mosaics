@@ -31,4 +31,19 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
+
+
+  #title-main {
+    font-size: 40%;
+    padding: 2px;
+    cursor: default;
+  }
+
+  #subtitle-main {
+    font-size: 20%;
+    padding: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+    cursor: default;
+  }
 }
