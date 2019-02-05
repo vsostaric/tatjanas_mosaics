@@ -7,10 +7,14 @@ import {HttpClientModule} from '@angular/common/http';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
 import {NgbModalModule} from '@ng-bootstrap/ng-bootstrap';
 import {SlideshowModule} from 'ng-simple-slideshow';
+import { FlagsComponent } from './flags/flags.component';
+import { TitleComponent } from './title/title.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlagsComponent,
+    TitleComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),

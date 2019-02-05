@@ -1,22 +1,11 @@
 .mosaic-image-holder {
-  padding: 2px;
+  padding: 4%;
   margin: 1px;
 }
 
 .mosaic-image {
   max-width: 100%;
   max-height: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  .mosaic-image {
-    max-height: 50px;
-  }
-
-  .mosaic-image-desc {
-    grid-column-start: 2;
-    grid-column-end: 4;
-  }
 }
 
 .mosaic-image-title {

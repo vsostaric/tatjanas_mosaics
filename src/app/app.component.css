@@ -1,12 +1,9 @@
 @import "./styles/modal.css";
 @import "./styles/mosaic-image.css";
-@import "./styles/title.css";
 @import "./styles/grid.css";
-@import "./styles/flag.css";
 @import "./styles/main.css";
 /*------------------------------------------------*/
 /*  Static outside css */
 /*------------------------------------------------*/
 @import "./styles/static/w3.css";
-@import "../../node_modules/flag-icon-css/css/flag-icon.min.css";
 @import "../../node_modules/font-awesome/css/font-awesome.min.css";
