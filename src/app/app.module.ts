@@ -5,8 +5,8 @@ import {AppComponent} from './app.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {HttpClientModule} from '@angular/common/http';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {RouterModule} from '@angular/router';
+import {NgbModalModule} from '@ng-bootstrap/ng-bootstrap';
+import {SlideshowModule} from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import {RouterModule} from '@angular/router';
     BrowserModule,
     FontAwesomeModule,
     HttpClientModule,
-    NgbModule
+    NgbModalModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

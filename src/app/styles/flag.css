@@ -2,15 +2,14 @@
   grid-column-start: 1;
   grid-column-end: 4;
   height: 6vh;
+  min-height: 15px;
 }
 
 .flag-icon {
   float: right;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  margin: 0.5vw;
+  padding: 0px;
   background-position: inherit !important;
   cursor: pointer;
+  width: 10% !important;
+  height: 100% !important;
 }

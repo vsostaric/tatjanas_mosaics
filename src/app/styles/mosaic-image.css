@@ -14,8 +14,8 @@
   }
 
   .mosaic-image-desc {
-    width: 50%;
-    float: right;
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 }
 
@@ -35,6 +35,8 @@
 .mosaic-image-desc {
   font-size: 2vw;
   cursor: default;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 .mosaic-image-seemore {
